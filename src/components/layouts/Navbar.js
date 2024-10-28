@@ -25,7 +25,7 @@ function Navbar() {
                     </li>
                     <li className={styles.item}>
                         <Link to="/projects">Projects</Link>
-                    </li>
+                    </li>                    
                 </ul>
             </Container>
         </nav>
