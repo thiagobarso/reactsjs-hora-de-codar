@@ -23,7 +23,9 @@ function NewProject() {
             .then((data) => {
                 console.log(data);
                 //redirect
-                history("/projects", { message: "Projeto criado com sucesso!" });
+                const state = { message: "Projeto criado com sucesso!" };
+                history("/projects", { state });
+
             })
             .catch((err) => console.log(err))
 
