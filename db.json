@@ -7,13 +7,31 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 100,
+      "cost": 701,
       "services": [
         {
           "name": "teste",
           "cost": "100",
           "description": "teste",
-          "id": "7a35f0cc-e8a9-4435-aab9-c284d4c4d9e0"
+          "id": "b18ce65a-b210-4751-9b29-36f5e4841ffb"
+        },
+        {
+          "name": "teste",
+          "cost": "100",
+          "description": "teste",
+          "id": "b18ce65a-b210-4751-9b29-36f5e4841ffb"
+        },
+        {
+          "name": "teste",
+          "cost": "1",
+          "description": "teste",
+          "id": "b894bdce-00aa-4f40-9f47-3896d2cafda4"
+        },
+        {
+          "name": "Serviço 4",
+          "cost": "500",
+          "description": "Serviço 4",
+          "id": "54ba010e-1cfa-4659-af96-b50bb3773fa5"
         }
       ],
       "id": 1
