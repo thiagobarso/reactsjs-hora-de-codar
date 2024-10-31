@@ -2,9 +2,7 @@
   "name": "meu-projeto",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@govbr-ds/core": "^3.6.0",
-    "@govbr-ds/webcomponents": "^1.21.1",
+  "dependencies": {    
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -14,7 +12,8 @@
     "react-router-dom": "^6.27.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "json-server": "^0.16.3"
+    "json-server": "^0.16.3",
+    "uuid": "^8.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
