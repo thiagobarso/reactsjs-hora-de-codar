@@ -8,6 +8,7 @@ import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer';
 import Projects from './components/pages/Projects';
 import Project from './components/pages/Project';
+import UsuarioCadastro from './components/pages/UsuarioCadastro';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/newproject" element={<NewProject />} />
           <Route path="/projects" element={<Projects />} />          
           <Route path="/project/:id" element={<Project />} />
+          <Route path="/pessoa/cadastro" element={<PessoaForm />} />
         </Routes>
       </Container>
       <Footer />
